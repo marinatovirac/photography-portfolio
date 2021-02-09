@@ -1,0 +1,124 @@
+/* Resetovanje svih stilova na nulu */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Glavni stil na stranici */
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+.clr {
+    clear: both;
+}
+.navbar {
+	margin:0 !important;
+	padding-left: 10px !important;
+}
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler {
+    outline: none;
+    box-shadow: none;
+}
+#logo h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 150px;
+}
+#navigacija ul {
+    text-align: left;
+    padding-left: 100px;
+}
+#logo h1 a {
+    text-decoration: none;
+    color: grey;
+}
+#social a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    color: grey;
+}
+#collapse_target {
+    text-align: left;
+}
+/*about info*/
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+
+}
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+
+}
+h1 {
+    line-height: 1.30 !important;
+}
+h2 {
+    line-height: 1.40 !important;
+}
+/*padding*/
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
+/*Kontakt form*/
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea {
+    height: 200px
+}
+#contact-form input:focus, 
+#contact-form textarea:focus {
+    outline: none;
+    border-color: black;
+}
+@media screen and (max-width: 525px) {
+    #logo h1 {
+        font-size: 7vw;
+    }
+  }
+@media screen and (max-width: 768px) {
+    #logo h1 {
+        padding-right: 0%;
+    }
+    #navigacija ul {
+      padding-left: 0%;
+    }
+    #about-info .info-right,
+    #about-info .info-left {
+        float: none;
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+    }
+}
