@@ -69,6 +69,7 @@ footer {
     float: left;
     width: 50%;
     min-height: 100%;
+    font-family: 'Playfair Display', serif;
 
 }
 h1 {
@@ -83,6 +84,10 @@ h2 {
 .py-3 {padding: 30px 0;}
 
 /*Kontakt form*/
+#contact-form {
+    font-family: 'Kaisei Tokumin', serif;
+font-family: 'Lora', serif;
+}
 #contact-form .form-group {
     margin-bottom: 20px;
 }
@@ -124,4 +129,16 @@ h2 {
     h1 {
         text-align: center;
     }
+}
+/*Kontakt informacije*/
+#contact-info a {
+    outline: none;
+    color:gray;
+
+}
+#contact-info .col-sm {
+    text-align: center;
+}
+#contact-info {
+    padding: 100px;
 }

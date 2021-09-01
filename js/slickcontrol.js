@@ -6,6 +6,7 @@ $('.galerija').slick({
     slidesToShow: 4,
     variableWidth: true,
     adaptiveHeight: true,
+    speed: 0,
     responsive: [
       {
         breakpoint: 768,
