@@ -142,3 +142,32 @@ font-family: 'Lora', serif;
 #contact-info {
     padding: 100px;
 }
+/*Mape*/
+#map {
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+}
+
+#map iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media screen and (min-width: 1200px) {
+    #map {
+        text-align: center;
+        padding-bottom: 450px;
+    }
+    #map iframe {
+        position: relative;
+        width: 1100px !important;
+        height: 450px !important;
+        border: 0;
+    }
+}
